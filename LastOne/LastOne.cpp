@@ -450,7 +450,7 @@ void Display()
 		// włączenie oświetlenia
 		glEnable(GL_LIGHTING);
 
-		// włączenie światła GL_LIGHT0
+	// włączenie światła GL_LIGHT0
 		glEnable(GL_LIGHT0);
 		// kąt odciecia reflektora
 		glLightf(GL_LIGHT0, GL_SPOT_CUTOFF, spot_cutoff);
@@ -518,77 +518,10 @@ void Display()
 
 	// generowanie obiektu gładkiego - jeden uśredniony
 	// wektor normalny na wierzchołek
-	if (normals == NORMALS_SMOOTH)
-		//for (int i = 0; i < 20; i++)
-		//{
-		//	// obliczanie wektora normalnego dla pierwszego wierzchołka
-		//	GLfloat n[3];
-		//	n[0] = n[1] = n[2] = 0.0;
-		//	// wyszukanie wszystkich ścian posiadających bie¿ący wierzchołek
-		//	for (int j = 0; j < 20; j++)
-		//		if (3 * triangles[3 * i + 0] == 3 * triangles[3 * j + 0] ||
-		//			3 * triangles[3 * i + 0] == 3 * triangles[3 * j + 1] ||
-		//			3 * triangles[3 * i + 0] == 3 * triangles[3 * j + 2])
-		//		{
-		//			// dodawanie wektorów normalnych poszczególnych ścian
-		//			GLfloat nv[3];
-		//			Normal(nv, j);
-		//			n[0] += nv[0];
-		//			n[1] += nv[1];
-		//			n[2] += nv[2];
-		//		}
-		//	// uśredniony wektor normalny jest normalizowany tylko, gdy biblioteka
-		//	// obsługuje automatyczne skalowania jednostkowych wektorów normalnych
-		//	if (rescale_normal == true)
-		//		Normalize(n);
-		//	glNormal3fv(n);
-		//	glVertex3fv(&vertex[3 * triangles[3 * i + 0]]);
-		//	// obliczanie wektora normalnego dla drugiego wierzchołka
-		//	n[0] = n[1] = n[2] = 0.0;
-		//	// wyszukanie wszystkich ścian posiadających bie¿ący wierzchołek
-		//	for (int j = 0; j < 20; j++)
-		//		if (3 * triangles[3 * i + 1] == 3 * triangles[3 * j + 0] ||
-		//			3 * triangles[3 * i + 1] == 3 * triangles[3 * j + 1] ||
-		//			3 * triangles[3 * i + 1] == 3 * triangles[3 * j + 2])
-		//		{
-		//			// dodawanie wektorów normalnych poszczególnych ścian
-		//			GLfloat nv[3];
-		//			Normal(nv, j);
-		//			n[0] += nv[0];
-		//			n[1] += nv[1];
-		//			n[2] += nv[2];
-		//		}
-		//	// uśredniony wektor normalny jest normalizowany tylko, gdy biblioteka
-		//	// obsługuje automatyczne skalowania jednostkowych wektorów normalnych
-		//	if (rescale_normal == true)
-		//		Normalize(n);
-		//	glNormal3fv(n);
-		//	glVertex3fv(&vertex[3 * triangles[3 * i + 1]]);
-		//	// obliczanie wektora normalnego dla trzeciego wierzchołka
-		//	n[0] = n[1] = n[2] = 0.0;
-		//	// wyszukanie wszystkich ścian posiadających bie¿ący wierzchołek
-		//	for (int j = 0; j < 20; j++)
-		//		if (3 * triangles[3 * i + 2] == 3 * triangles[3 * j + 0] ||
-		//			3 * triangles[3 * i + 2] == 3 * triangles[3 * j + 1] ||
-		//			3 * triangles[3 * i + 2] == 3 * triangles[3 * j + 2])
-		//		{
-		//			// dodawanie wektorów normalnych poszczególnych ścian
-		//			GLfloat nv[3];
-		//			Normal(nv, j);
-		//			n[0] += nv[0];
-		//			n[1] += nv[1];
-		//			n[2] += nv[2];
-		//		}
-		//	// uśredniony wektor normalny jest normalizowany tylko, gdy biblioteka
-		//	// obsługuje automatyczne skalowania jednostkowych wektorów normalnych
-		//	if (rescale_normal == true)
-		//		Normalize(n);
-		//	glNormal3fv(n);
-		//	glVertex3fv(&vertex[3 * triangles[3 * i + 2]]);
-		//}
+	if (normals == NORMALS_SMOOTH)	
 
 	{
-		GLint n = 5;
+		GLint n = 6;
 		GLTVector3 vNormal;
 		GLTVector3 vCorners[12] =
 		{
@@ -693,7 +626,7 @@ void Display()
 		//	glVertex3fv(&vertex[3 * triangles[3 * i + 1]]);
 		//	glVertex3fv(&vertex[3 * triangles[3 * i + 2]]);
 		//}
-		GLint n = 5;
+		GLint n = 6;
 		GLTVector3 vNormal;
 		GLTVector3 vCorners[12] =
 		{

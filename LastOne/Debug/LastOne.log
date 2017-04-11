@@ -389,21 +389,21 @@ c:\users\brand\documents\visual studio 2017\projects\lastone\lastone\lastone.cpp
 c:\users\brand\documents\visual studio 2017\projects\lastone\lastone\lastone.cpp(320): warning C4838: conversion from 'double' to 'GLfloat' requires a narrowing conversion
 c:\users\brand\documents\visual studio 2017\projects\lastone\lastone\lastone.cpp(320): warning C4305: 'initializing': truncation from 'double' to 'GLfloat'
 c:\users\brand\documents\visual studio 2017\projects\lastone\lastone\lastone.cpp(373): warning C4244: 'initializing': conversion from 'double' to 'GLfloat', possible loss of data
-c:\users\brand\documents\visual studio 2017\projects\lastone\lastone\lastone.cpp(601): warning C4244: '=': conversion from 'double' to 'GLfloat', possible loss of data
-c:\users\brand\documents\visual studio 2017\projects\lastone\lastone\lastone.cpp(602): warning C4244: '=': conversion from 'double' to 'GLfloat', possible loss of data
-c:\users\brand\documents\visual studio 2017\projects\lastone\lastone\lastone.cpp(706): warning C4244: '=': conversion from 'double' to 'GLfloat', possible loss of data
-c:\users\brand\documents\visual studio 2017\projects\lastone\lastone\lastone.cpp(707): warning C4244: '=': conversion from 'double' to 'GLfloat', possible loss of data
-c:\users\brand\documents\visual studio 2017\projects\lastone\lastone\lastone.cpp(797): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+c:\users\brand\documents\visual studio 2017\projects\lastone\lastone\lastone.cpp(534): warning C4244: '=': conversion from 'double' to 'GLfloat', possible loss of data
+c:\users\brand\documents\visual studio 2017\projects\lastone\lastone\lastone.cpp(535): warning C4244: '=': conversion from 'double' to 'GLfloat', possible loss of data
+c:\users\brand\documents\visual studio 2017\projects\lastone\lastone\lastone.cpp(639): warning C4244: '=': conversion from 'double' to 'GLfloat', possible loss of data
+c:\users\brand\documents\visual studio 2017\projects\lastone\lastone\lastone.cpp(640): warning C4244: '=': conversion from 'double' to 'GLfloat', possible loss of data
+c:\users\brand\documents\visual studio 2017\projects\lastone\lastone\lastone.cpp(730): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
   c:\program files (x86)\windows kits\10\include\10.0.14393.0\ucrt\stdio.h(1769): note: see declaration of 'sprintf'
-c:\users\brand\documents\visual studio 2017\projects\lastone\lastone\lastone.cpp(801): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+c:\users\brand\documents\visual studio 2017\projects\lastone\lastone\lastone.cpp(734): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
   c:\program files (x86)\windows kits\10\include\10.0.14393.0\ucrt\stdio.h(1769): note: see declaration of 'sprintf'
-c:\users\brand\documents\visual studio 2017\projects\lastone\lastone\lastone.cpp(803): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+c:\users\brand\documents\visual studio 2017\projects\lastone\lastone\lastone.cpp(736): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
   c:\program files (x86)\windows kits\10\include\10.0.14393.0\ucrt\stdio.h(1769): note: see declaration of 'sprintf'
-c:\users\brand\documents\visual studio 2017\projects\lastone\lastone\lastone.cpp(850): warning C4305: '+=': truncation from 'double' to 'GLfloat'
-c:\users\brand\documents\visual studio 2017\projects\lastone\lastone\lastone.cpp(855): warning C4305: '-=': truncation from 'double' to 'GLfloat'
-c:\users\brand\documents\visual studio 2017\projects\lastone\lastone\lastone.cpp(916): warning C4244: '+=': conversion from 'double' to 'GLfloat', possible loss of data
-c:\users\brand\documents\visual studio 2017\projects\lastone\lastone\lastone.cpp(918): warning C4244: '-=': conversion from 'double' to 'GLfloat', possible loss of data
-c:\users\brand\documents\visual studio 2017\projects\lastone\lastone\lastone.cpp(1154): warning C4996: 'sscanf': This function or variable may be unsafe. Consider using sscanf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+c:\users\brand\documents\visual studio 2017\projects\lastone\lastone\lastone.cpp(783): warning C4305: '+=': truncation from 'double' to 'GLfloat'
+c:\users\brand\documents\visual studio 2017\projects\lastone\lastone\lastone.cpp(788): warning C4305: '-=': truncation from 'double' to 'GLfloat'
+c:\users\brand\documents\visual studio 2017\projects\lastone\lastone\lastone.cpp(849): warning C4244: '+=': conversion from 'double' to 'GLfloat', possible loss of data
+c:\users\brand\documents\visual studio 2017\projects\lastone\lastone\lastone.cpp(851): warning C4244: '-=': conversion from 'double' to 'GLfloat', possible loss of data
+c:\users\brand\documents\visual studio 2017\projects\lastone\lastone\lastone.cpp(1087): warning C4996: 'sscanf': This function or variable may be unsafe. Consider using sscanf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
   c:\program files (x86)\windows kits\10\include\10.0.14393.0\ucrt\stdio.h(2254): note: see declaration of 'sscanf'
   LastOne.vcxproj -> C:\Users\brand\documents\visual studio 2017\Projects\LastOne\Debug\LastOne.exe
   LastOne.vcxproj -> C:\Users\brand\documents\visual studio 2017\Projects\LastOne\Debug\LastOne.pdb (Partial PDB)
