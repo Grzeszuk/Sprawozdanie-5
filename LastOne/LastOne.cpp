@@ -211,10 +211,10 @@ int aspect = FULL_WINDOW;
 
 // rozmiary bryły obcinania
 
-const GLdouble left = -1.0;
-const GLdouble right = 1.0;
-const GLdouble bottom = -1.0;
-const GLdouble top = 1.0;
+const GLdouble left = -0.5;
+const GLdouble right = 0.5;
+const GLdouble bottom = -0.5;
+const GLdouble top = 0.5;
 const GLdouble near = 3.0;
 const GLdouble far = 7.0;
 

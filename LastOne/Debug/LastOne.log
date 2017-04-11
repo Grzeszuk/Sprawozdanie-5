@@ -405,5 +405,5 @@ c:\users\brand\documents\visual studio 2017\projects\lastone\lastone\lastone.cpp
 c:\users\brand\documents\visual studio 2017\projects\lastone\lastone\lastone.cpp(918): warning C4244: '-=': conversion from 'double' to 'GLfloat', possible loss of data
 c:\users\brand\documents\visual studio 2017\projects\lastone\lastone\lastone.cpp(1154): warning C4996: 'sscanf': This function or variable may be unsafe. Consider using sscanf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
   c:\program files (x86)\windows kits\10\include\10.0.14393.0\ucrt\stdio.h(2254): note: see declaration of 'sscanf'
-  LastOne.vcxproj -> C:\Users\brand\Documents\Visual Studio 2017\Projects\LastOne\Debug\LastOne.exe
-  LastOne.vcxproj -> C:\Users\brand\Documents\Visual Studio 2017\Projects\LastOne\Debug\LastOne.pdb (Partial PDB)
+  LastOne.vcxproj -> C:\Users\brand\documents\visual studio 2017\Projects\LastOne\Debug\LastOne.exe
+  LastOne.vcxproj -> C:\Users\brand\documents\visual studio 2017\Projects\LastOne\Debug\LastOne.pdb (Partial PDB)
